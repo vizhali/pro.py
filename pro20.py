@@ -1,10 +1,10 @@
         
 vizh,pop=map(int,input().split())
-gjh=list(map(int,input().split()))
-gjh.sort(reverse=True)
+bob=list(map(int,input().split()))
+bob.sort(reverse=True)
 shiv=0
 total=pop
-for i in arr:
+for i in bob:
     if total>=i:
         rem=int(total/i)
         shiv+=rem
