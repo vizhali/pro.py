@@ -24,7 +24,7 @@ while vizh>=0 and len(tree)>0:
 
         vizh=vizh-pep[mindex]
 
-    pr.pop(mindex)
+    pep.pop(mindex)
 
     vj.pop(mindex)
 
