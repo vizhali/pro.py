@@ -1,7 +1,7 @@
 vizh,pop=map(int,input().split())
 lst=[]
 for _ in range(vizh):
-	lt.append(sorted(list(map(int,input().split()))))
+	lst.append(sorted(list(map(int,input().split()))))
 for i in range(vizh-1):
 	for j in range(pop):
 		for k in range(vizh-i):
