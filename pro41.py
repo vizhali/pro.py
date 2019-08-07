@@ -1,16 +1,16 @@
-vizh,pop=input().split()
-vizh=int(vizh)
+vizha,pop=input().split()
+vizha=int(vizha)
 pop=int(pop)
 sack=''
 rrr=2
-if(vizh+pop<=3):
-    for i in range(0,vizh+pop):
+if(vizha+pop<=3):
+    for i in range(0,vizha+pop):
         if(i%2!=0):
             sack=sack+'0'
         else:
             sack=sack+'1'
 else:    
-    for i in range(0,vizh+pop):
+    for i in range(0,vizha+pop):
         if(i==rrr):
             sack=sack+'0'
             if(rrr==pop):
@@ -22,7 +22,7 @@ else:
 x=len(sack)-1
 if(int(sack[x])==0):
     print('-1') 
-elif vizh==1 and pop==2: 
+elif vizha==1 and pop==2: 
      print("011")
 else:
     print(sack)
