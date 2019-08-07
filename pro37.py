@@ -1,4 +1,4 @@
-vizh=int(input())
+vizha=int(input())
 pop=list(map(int,input().split()))
 cat=0
 sss=0
