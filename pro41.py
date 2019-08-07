@@ -1,4 +1,4 @@
-vizh,bht=input().split()
+vizh,pop=input().split()
 vizh=int(vizh)
 pop=int(pop)
 sack=''
