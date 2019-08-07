@@ -15,7 +15,7 @@ for i in range(0,nactee) :
     if Lactee[i] in duplie :
         sinte.append(i)
 cat = len(bhte)
-for i in range(0,nact) :
+for i in range(0,nactee) :
     if len(bhte) == 0 :
         break
     if i in sinte :
