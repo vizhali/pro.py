@@ -4,5 +4,5 @@ Caat=0
 for Xt in Lat:
     if Xt<=(5-pop):
         Caat+=1
-Gtee=Ct//3
+Gtee=Caat//3
 print(Gtee)
