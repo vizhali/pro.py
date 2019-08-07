@@ -1,7 +1,7 @@
 vizh=input()
-pop=len(vizh)
+popu=len(vizh)
 i=0
-while(i<pop):
+while(i<popu):
     mee=0
     kee=0
     for j in range(len(vizh)):
@@ -10,11 +10,11 @@ while(i<pop):
             if(kee>mee):
                 mee=kee
             kee=0
-        if(kee>pop):
+        if(kee>popu):
             break
     if(kee>mee):
         mee=kee
-    if(mee<pop):
-        pop=mee
+    if(mee<popu):
+        popu=mee
     i+=1
-print(pop)
+print(popu)
