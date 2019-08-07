@@ -1,0 +1,20 @@
+vizh=input()
+pop=len(vizh)
+i=0
+while(i<pop):
+    mee=0
+    kee=0
+    for j in range(len(vizh)):
+        kee+=1
+        if(vizh[i]==vizh[j]):
+            if(kee>mee):
+                mee=kee
+            kee=0
+        if(kee>pop):
+            break
+    if(kee>mee):
+        mee=kee
+    if(mee<pop):
+        pop=mee
+    i+=1
+print(pop)
