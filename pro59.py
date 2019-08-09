@@ -5,6 +5,6 @@ if  len(bhte)>len(sbte):
         print(bhte+"|"+sbte+ccte)
 elif len(bhte)<len(sbte):
      if len(sbte)==len(bhte)+len(ccte):
-        print(bhet+ccte+"|"+sbte)
+        print(bhte+ccte+"|"+sbte)
 elif len(bhte)==len(sbte) and len(ccte)>1 or (len(sbte) or len(bhte)):
     print("impossible")
