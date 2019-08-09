@@ -8,10 +8,10 @@ def fact(antte,batte):
   mant = 1
   for k in range(batte+1,antte+1,2):
     if k == antte:
-      mante = mante * k
+      mant = mant * k
     else:
-      mante = mante*(k*(k+1)) 
-  return mante
+      mant = mant*(k*(k+1)) 
+  return mant
 
 for i in laate:
   if i[0]==5000000 and i[1]==1:
