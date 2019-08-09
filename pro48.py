@@ -1,7 +1,7 @@
 bte = int(input())
 laate, samte = [], 0
 
-for i in range(0, bt):
+for i in range(0, bte):
   laate.append(list(map(int, input().split())))
 
 def fact(antte,batte):
