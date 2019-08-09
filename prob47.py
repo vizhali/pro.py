@@ -5,7 +5,7 @@ def isPrime(vizh1) :
     if vizh1 <= 1 : return False
     if vizh1==2 or vizh1==3 : return True
     antte = int(math.sqrt(vizh1)+1)
-    for i in range(2,antt+1) :
+    for i in range(2,antte+1) :
         if vizh1%i == 0 :
             return False
     return True
