@@ -2,7 +2,7 @@ def vizh(l):
         pop=1
         
         for xtee in range(0,len(l)-1):
-                if l[xtee]!=l[xeet+1]:
+                if l[xtee]!=l[xtee+1]:
                         pop=pop+1
                 else:
                     break
